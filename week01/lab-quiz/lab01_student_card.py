@@ -4,7 +4,7 @@ std_department=input("Enter your department: ")
 github_username=input("Enter your GitHub username: ")
 programming_goal=input("Enter one programming goal: ")
 #
-print(f"---Student Card---")
+print("\n---Student Card---")
 print(f"Student name: {name}")
 print(f"Student ID: {std_id}")
 print(f"Student department: {std_department}")
