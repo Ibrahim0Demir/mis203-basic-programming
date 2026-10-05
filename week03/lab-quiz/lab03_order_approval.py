@@ -1,6 +1,6 @@
 continue_system = "yes"
 
-while continue_system == "yes"
+while continue_system == "yes":
     
     order_amount = float(input("Enter order amount (TRY): "))
     available_stock = int(input("Enter available stock: "))
