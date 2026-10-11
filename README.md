@@ -33,3 +33,10 @@ Tests:
   
 Why does the order of the rules matter?  
 The order is critical because the `if/elif` structure stops checking as soon as it finds the first `True` condition. If the "Student" rule came before the "Child" rule, a 10-year-old student would receive a 30% discount instead of the 40% discount they deserve. Checking from the highest priority/discount downwards ensures everyone gets the correct category.  
+
+Week 04  
+  
+AI Tool Used: Gemini  
+Prompt Used: "Help me write a password generator in Python using string and secrets libraries."  
+What did you change? I added `.isdigit()` to prevent errors if the user types a letter instead of a number. I also made sure the chosen characters are actually included in the password.  
+Libraries used: `string` gives me all the letters and numbers easily. I used `secrets` instead of `random` because it is safer for creating passwords.  
